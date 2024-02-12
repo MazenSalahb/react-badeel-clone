@@ -1,0 +1,19 @@
+.searchResult {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: #202020;
+  max-height: 250px;
+  overflow-y: hidden;
+  border-radius: 6px 6px 12px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchResult .proContainer {
+  padding: 4px;
+  color: #d3d0c6;
+  cursor: pointer;
+  border-bottom: 1px solid #303030;
+}

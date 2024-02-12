@@ -1,0 +1,62 @@
+.product {
+  background: #202020;
+  height: 200px;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product .title p {
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 16px;
+  color: #9f9d86;
+  text-transform: capitalize;
+  margin-top: -10px;
+}
+
+.product .info span {
+  border: 1px solid #494945;
+  background-color: #313131;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 0px 12px;
+  transition: 0.3s;
+}
+
+.product .info span:hover {
+  background-color: #494945;
+  cursor: pointer;
+}
+
+.product .info .badeel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #89ca88;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.product .details {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.product .details:hover {
+  background-color: #494945;
+  cursor: pointer;
+}

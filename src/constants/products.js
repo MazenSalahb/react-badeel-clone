@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: 1,
+    arTitle: "تايجر",
+    enTitle: "tiger",
+    classification: "رقائق",
+    status: "بديل",
+  },
+  {
+    id: 2,
+    arTitle: "بيج شيبس",
+    enTitle: "big chips",
+    classification: "رقائق",
+    status: "بديل",
+  },
+  {
+    id: 3,
+    arTitle: "جاجوار",
+    enTitle: "jaguar",
+    classification: "وجبات خفيفة من الذرة",
+    status: "بديل",
+  },
+  {
+    id: 4,
+    arTitle: "فلامنكو",
+    enTitle: "flaminco",
+    classification: "وجبات خفيفة من الذرة",
+    status: "بديل",
+  },
+  {
+    id: 5,
+    arTitle: "بيك رولز",
+    enTitle: "bake rolz",
+    classification: "وجبات خفيفة من الذرة",
+    status: "بديل",
+  },
+  {
+    id: 6,
+    arTitle: "حلقات الشوفان",
+    enTitle: "oat rings",
+    classification: "رقائق",
+    status: "بديل",
+  },
+  {
+    id: 7,
+    arTitle: "فشار فن داي",
+    enTitle: "fun day pop corn",
+    classification: "وجبات خفيفة صحية",
+    status: "بديل",
+  },
+];

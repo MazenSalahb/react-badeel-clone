@@ -1,0 +1,25 @@
+.sorter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sorter button {
+  font-family: "Noto Sans Arabic", sans-serif;
+  background-color: #1a1a1a;
+  color: #efece0;
+  padding: 3px 16px;
+  font-size: 16px;
+  border: 1px solid #e8543f;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.2s;
+}
+
+.sorter button:hover {
+  background-color: #e8533f41;
+  cursor: pointer;
+}
